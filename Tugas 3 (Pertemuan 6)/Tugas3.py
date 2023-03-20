@@ -47,7 +47,7 @@ nama = st.text_input('Nama', '')
 # 6. Media Elements
 st.title("6. Media Elements")
 
-img = Image.open("E:/babygroot.JPG")
+img = Image.open("./Tugas 3 (Pertemuan 6)/babygroot.JPG")
 
 st.image(img, caption='Baby Groot GOTG')
 
